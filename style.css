@@ -143,11 +143,17 @@ section ul {
 
 .form-section form input,
 .form-section form textarea {
-  width: 20rem;
+  width: 23rem;
   padding: 0.5rem 0.5rem;
+
+  font-size: 1.05rem;
+
   border: 0.5px solid black;
-  resize: vertical;
   border-radius: 6px;
+}
+
+.form-section form textarea {
+  height: 10rem;
 }
 
 .form-section form button {
@@ -169,4 +175,13 @@ section ul {
 
 .form-section form button:hover {
   filter: brightness(1.25);
+}
+
+footer {
+  padding: 1rem;
+
+  font-size: 1.15rem;
+
+  color: #ecf0f1;
+  background-color: #182c61;
 }
